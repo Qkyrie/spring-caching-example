@@ -12,3 +12,5 @@
 hs_err_pid*
 .idea/
 spring-caching-example.iml
+.gradle/
+build/

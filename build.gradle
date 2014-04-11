@@ -41,6 +41,9 @@ repositories {
 dependencies {
 	compile("org.springframework.boot:spring-boot-starter")
 	testCompile("org.springframework.boot:spring-boot-starter-test")
+    compile("org.springframework.boot:spring-boot-starter-web")
+    compile("org.apache.commons:commons-lang3:3.0")
+
 }
 
 task wrapper(type: Wrapper) {

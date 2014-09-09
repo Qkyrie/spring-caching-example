@@ -1,6 +1,6 @@
-package com.qkyrie.spring.examples.caching.repository;
+package com.deswaef.spring.examples.caching.repository;
 
-import com.qkyrie.spring.examples.caching.model.CacheableMessage;
+import com.deswaef.spring.examples.caching.model.CacheableMessage;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;

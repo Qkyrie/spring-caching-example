@@ -1,4 +1,4 @@
-package com.qkyrie.spring.examples.caching.model;
+package com.deswaef.spring.examples.caching.model;
 
 /**
  * User: Quinten

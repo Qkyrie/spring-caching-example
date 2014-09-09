@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.qkyrie.spring.examples.caching;
+package com.deswaef.spring.examples.caching;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;

@@ -1,7 +1,7 @@
-package com.qkyrie.spring.examples.caching.mvc;
+package com.deswaef.spring.examples.caching.mvc;
 
-import com.qkyrie.spring.examples.caching.model.CacheableMessage;
-import com.qkyrie.spring.examples.caching.service.IMessageService;
+import com.deswaef.spring.examples.caching.model.CacheableMessage;
+import com.deswaef.spring.examples.caching.service.IMessageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;

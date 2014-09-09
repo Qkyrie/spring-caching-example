@@ -1,6 +1,6 @@
-package com.qkyrie.spring.examples.caching.repository;
+package com.deswaef.spring.examples.caching.repository;
 
-import com.qkyrie.spring.examples.caching.model.CacheableMessage;
+import com.deswaef.spring.examples.caching.model.CacheableMessage;
 
 /**
  * User: Quinten

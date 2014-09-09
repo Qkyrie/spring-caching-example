@@ -1,7 +1,7 @@
-package com.qkyrie.spring.examples.caching.service;
+package com.deswaef.spring.examples.caching.service;
 
-import com.qkyrie.spring.examples.caching.model.CacheableMessage;
-import com.qkyrie.spring.examples.caching.repository.ICachingRepository;
+import com.deswaef.spring.examples.caching.model.CacheableMessage;
+import com.deswaef.spring.examples.caching.repository.ICachingRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;

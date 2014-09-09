@@ -1,4 +1,4 @@
-package com.qkyrie.spring.examples.caching.configuration;
+package com.deswaef.spring.examples.caching.configuration;
 
 import org.springframework.cache.Cache;
 import org.springframework.cache.annotation.EnableCaching;

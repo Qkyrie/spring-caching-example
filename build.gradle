@@ -1,6 +1,6 @@
 buildscript {
 	ext {
-		springBootVersion = '1.0.0.BUILD-SNAPSHOT'
+		springBootVersion = '1.1.7.RELEASE'
 	}
 	repositories {
 		// NOTE: You should declare only repositories that you need here
@@ -8,7 +8,6 @@ buildscript {
 		mavenCentral()
 		maven { url "http://repo.spring.io/release" }
 		maven { url "http://repo.spring.io/milestone" }
-		maven { url "http://repo.spring.io/snapshot" }
 	}
 	dependencies {
 		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
@@ -16,7 +15,6 @@ buildscript {
 }
 
 apply plugin: 'java'
-apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'spring-boot'
 
@@ -47,5 +45,9 @@ dependencies {
 }
 
 task wrapper(type: Wrapper) {
-	gradleVersion = '1.6'
+	gradleVersion = '1.11'
+}
+
+task "fullBuild" {
+    dependsOn "cleanTest", "test", "check", "build"
 }
